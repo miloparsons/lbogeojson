@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script id="wasabi-location">
+        (function(){
+      
+          // replace the url to use your own wasabi file
+          var my_file = '/test.wasabi';
+      
+          var this_id = 'wasabi-location';
+          var W=window.Wasabi=window.Wasabi||{};W.from=my_file;W.here=this_id;
+          var s=document.createElement('script');s.src='https://s3.amazonaws.'+
+          'com/wasabi.js/get-wasabi.js';document.write(s.outerHTML);
+        })();
+      </script>
+
+</head>
+<body>
+
+    my-project/
+    my-project/bowser.json
+        mario's least favorite package manager
+    
+    my-project/src/
+    my-project/src/helper.js
+        be familiar with it's brother main.js first,
+        this file houses a good bit of sugar for the core features
+    my-project/src/main.js
+        the core of the app, supports x, y, and z
+
+</body>
+</html>
+
+
+
